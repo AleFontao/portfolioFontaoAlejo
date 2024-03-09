@@ -20,16 +20,15 @@ export const Projects: Project[] = [
         position: "",
         area: "FrontEnd - BackEnd",
         tecnologies: ["Angular", "SCSS", "HTML", "ASP.NET", "SQL Server"]
-    },
-    {
+    }, {
         titleProject:
-            "RaveLink",
+            "Sistema gestión gimnasio",
         imgProject:
-            "./assets/ravelink.png",
-        descriptionProject: "El proyecto es una plataforma para encontrar eventos de música electronica.",
+            "./assets/gymSystem.png",
+        descriptionProject: "Sistema desarrollado para dos gimnasios ubicados en Córdoba. El sistema cuenta con distintos apartados necesarios para la correcta gestión del negocio como: inscripciones, facturación, estadísticas, visitas, calls de renovación y más.",
         position: "",
-        area: "FrontEnd",
-        tecnologies: ["React", "SCSS", "HTML"]
+        area: "FrontEnd - BackEnd",
+        tecnologies: ["C#", "WinForms", "SQLServer"]
     },
     {
         titleProject:
@@ -41,6 +40,15 @@ export const Projects: Project[] = [
         position: "",
         area: "FrontEnd",
         tecnologies: ["Angular", "SCSS", "HTML"]
+    }, {
+        titleProject:
+            "RaveLink",
+        imgProject:
+            "./assets/ravelink.png",
+        descriptionProject: "El proyecto es una plataforma para encontrar eventos de música electronica.",
+        position: "",
+        area: "FrontEnd",
+        tecnologies: ["React", "SCSS", "HTML"]
     },
     {
         titleProject:
@@ -61,6 +69,7 @@ export const Projects: Project[] = [
             "./assets/iPAdressTracker.png",
         descriptionProject: "El proyecto es una interfaz visual desarrollada con Angular que te permite localizar en un mapa la ubicación asociada a una dirección IP pública. Esta aplicación es útil para obtener información geográfica sobre una dirección IP, lo que puede ser útil en el análisis de datos o en la identificación de problemas de seguridad. La interfaz es sencilla e intuitiva",
         url: "https://alefontao.github.io/IPAddressTracker/",
+        github: "https://github.com/AleFontao/IPAddressTracker",
         position: "",
         area: "FrontEnd",
         tecnologies: ["Angular", "SCSS", "HTML"]
