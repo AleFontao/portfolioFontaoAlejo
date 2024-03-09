@@ -1,0 +1,29 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .navbar-container {
+        display: flex;
+        width: 70%;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .navbar-elements {
+            display: flex;
+            flex-direction: row;
+            padding: 8px 0;
+            gap: 25px;
+
+            a {
+                color: var(--color-secondary);
+                transition: 0.5s;
+            }
+
+            a:hover {
+                color: var(--color-primary);
+                transition: 0.5s;
+            }
+        }
+    }
+}
