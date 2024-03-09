@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from 'src/components/navBar/navBar.component';
 import { LandingPageComponent } from 'src/components/landing-page/landing-page.component';
 import { PresentationComponent } from 'src/components/presentation/presentation.component';
+import { ProjectsComponent } from 'src/components/projects/projects.component';
+import { ProjectCardComponent } from 'src/components/project-card/project-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     LandingPageComponent,
-    PresentationComponent
+    PresentationComponent,
+    ProjectsComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,

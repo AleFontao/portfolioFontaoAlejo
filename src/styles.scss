@@ -1,6 +1,6 @@
 :root {
-    --color-background: #222831;
-    --color-element: #31363F;
+    --color-background: #31363F;
+    --color-element: #222831;
     --color-secondary: #76ABAE;
     --color-primary: #EEEEEE;
     --color-terciary: #b4b4b4;
@@ -36,4 +36,24 @@ body {
     justify-content: center;
     width: 100%;
     height: 600px;
+}
+.section-container--secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-element);
+}
+
+.link-button {
+    border: 2px solid var(--color-secondary);
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #262626;
+    transition: 1s;
+}
+
+.link-button:hover {
+    background: #3a3a3a;
+    transition: 1s;
 }

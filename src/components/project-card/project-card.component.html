@@ -1,0 +1,28 @@
+<div class="container-project">
+  <div class="project-img" [ngStyle]=myStyle>
+    <img src="{{project.imgProject}}">
+  </div>
+  <div class="project-body">
+    <div class="project-title">
+      <h2> {{project.titleProject}} </h2>
+      <h3>Frontend and backend</h3>
+    </div>
+    <div class="project-description">
+      <div>
+
+        <p>{{project.descriptionProject}}</p>
+
+      </div>
+    </div>
+    <div>
+      <div class="project-tecnologies">
+        <p>Angular</p>
+        <p>ASP.NET</p>
+      </div>
+    </div>
+    <div class="project-actions">
+      <a *ngIf="project.url != null" href='{{project.url}}' target="_blank" class="link-button">Ir a proyecto</a>
+      <a *ngIf="project.github != null" href='{{project.github}}' target="_blank" class="link-button">Ir a código</a>
+    </div>
+  </div>
+</div>

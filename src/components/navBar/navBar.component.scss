@@ -2,9 +2,13 @@ nav {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: fixed;
+
+    transition: 0.5s;
+    z-index: 5;
     .navbar-container {
         display: flex;
-        width: 70%;
+        width: 90%;
         align-items: center;
         flex-direction: row;
         justify-content: space-around;
@@ -26,4 +30,10 @@ nav {
             }
         }
     }
+}
+
+.navbar-scrolled{
+    backdrop-filter: blur(101px);
+    background: #26262682;
+    transition: 1s;
 }

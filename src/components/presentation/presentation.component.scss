@@ -17,17 +17,6 @@
         flex-direction: row;
         gap: 15px;
         margin: 20px;
-        .link-button {
-            border: 2px solid var(--color-secondary);
-            padding: 10px 30px;
-            border-radius: 25px;
-            background-color: #262626;
-            transition: 1s;
-        }
-
-        .link-button:hover {
-            background: #3a3a3a;
-            transition: 1s;
-        }
+        
     }
 }
