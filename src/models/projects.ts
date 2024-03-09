@@ -26,7 +26,7 @@ export const Projects: Project[] = [
             "RaveLink",
         imgProject:
             "./assets/ravelink.png",
-        descriptionProject: "El proyecto es una plataforma para encontrar eventos de musica electronica.",
+        descriptionProject: "El proyecto es una plataforma para encontrar eventos de música electronica.",
         position: "",
         area: "FrontEnd",
         tecnologies: ["React", "SCSS", "HTML"]
