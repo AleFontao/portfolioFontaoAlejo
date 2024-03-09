@@ -39,7 +39,7 @@ export const Projects: Project[] = [
         github: "https://github.com/AleFontao/BUSCADOR-DLC",
         position: "",
         area: "FrontEnd",
-        tecnologies: ["Angular", "SCSS", "HTML"]
+        tecnologies: ["JAVA", "SprinBoot", "Bootstrap", "CSS", "HTML"]
     }, {
         titleProject:
             "RaveLink",
