@@ -22,4 +22,6 @@ export class NavBarComponent implements OnInit {
       element.classList.remove('navbar-scrolled');
     }
   }
+
+  
 }

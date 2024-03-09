@@ -19,7 +19,17 @@ export const Projects: Project[] = [
         url: "https://www.wofory.com",
         position: "",
         area: "FrontEnd - BackEnd",
-        tecnologies: ["Angular", "ASP.NET", "SQL Server"]
+        tecnologies: ["Angular", "SCSS", "HTML", "ASP.NET", "SQL Server"]
+    },
+    {
+        titleProject:
+            "RaveLink",
+        imgProject:
+            "./assets/ravelink.png",
+        descriptionProject: "El proyecto es una plataforma para encontrar eventos de musica electronica.",
+        position: "",
+        area: "FrontEnd",
+        tecnologies: ["React", "SCSS", "HTML"]
     },
     {
         titleProject:
@@ -30,7 +40,7 @@ export const Projects: Project[] = [
         github: "https://github.com/AleFontao/BUSCADOR-DLC",
         position: "",
         area: "FrontEnd",
-        tecnologies: ["Angular"]
+        tecnologies: ["Angular", "SCSS", "HTML"]
     },
     {
         titleProject:
@@ -42,7 +52,7 @@ export const Projects: Project[] = [
         github: "https://github.com/AleFontao/NetflixClone",
         position: "",
         area: "FrontEnd",
-        tecnologies: ["Angular"]
+        tecnologies: ["Angular", "SCSS", "HTML"]
     },
     {
         titleProject:
@@ -53,7 +63,7 @@ export const Projects: Project[] = [
         url: "https://alefontao.github.io/IPAddressTracker/",
         position: "",
         area: "FrontEnd",
-        tecnologies: ["Angular"]
+        tecnologies: ["Angular", "SCSS", "HTML"]
     },
 ]
 
