@@ -16,20 +16,21 @@ body {
         color: var(--color-primary);
     }
 
-    a{
+    a {
         text-decoration: none;
     }
 
-    li{
+    li {
         list-style-type: none;
     }
 
-    h1, h2{
+    h1,
+    h2 {
         margin: 0;
     }
 }
 
-.section-container{
+.section-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,6 +38,7 @@ body {
     width: 100%;
     height: 600px;
 }
+
 .section-container--secondary {
     display: flex;
     flex-direction: column;
@@ -56,4 +58,79 @@ body {
 .link-button:hover {
     background: #3a3a3a;
     transition: 1s;
+}
+
+
+h1 {
+    font-size: 3.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.40rem;
+}
+
+h3.subtitle {
+    padding-left: 15px;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    font-size: 1rem;
+}
+
+small {
+    font-size: 0.75rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.20rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    span {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 0.9rem;
+    }
+
+    small {
+        font-size: 0.75rem;
+    }
 }

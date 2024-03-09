@@ -7,6 +7,7 @@
     .section-body {
         width: 1000px;
         margin: 50px 0;
+
         .section-title {
             width: 100%;
             text-align: left;
@@ -16,9 +17,21 @@
 
             display: flex;
             flex-direction: column;
-            .project{
+
+            .project {
                 margin-top: 50px;
             }
         }
+    }
+}
+
+@media(max-width: 1000px) {
+    .container-project {
+        width: 80%;
+
+    }
+
+    .section-body {
+        width: 80% !important;
     }
 }

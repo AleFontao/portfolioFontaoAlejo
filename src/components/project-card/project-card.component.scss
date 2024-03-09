@@ -41,7 +41,8 @@
         .project-description {
             border: 0px 0px 0px 1px solid #262626;
         }
-    /*
+
+        /*
         .project-description::before {
             content: "‎ ‎ <p>";
             opacity: 0.5;
@@ -77,6 +78,7 @@
             flex-direction: row;
             gap: 15px;
             width: fit-content;
+
             * {
                 margin: 0;
                 color: #ebebeb5d;
@@ -97,6 +99,11 @@
 
 @media(max-width: 1000px) {
     .container-project {
-        flex-direction: column !important;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .project-img{
+        order: 0 !important;
     }
 }

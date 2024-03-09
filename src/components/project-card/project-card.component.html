@@ -5,7 +5,7 @@
   <div class="project-body">
     <div class="project-title">
       <h2> {{project.titleProject}} </h2>
-      <h3>Frontend and backend</h3>
+      <h3>{{project.area}}</h3>
     </div>
     <div class="project-description">
       <div>
@@ -16,8 +16,7 @@
     </div>
     <div>
       <div class="project-tecnologies">
-        <p>Angular</p>
-        <p>ASP.NET</p>
+        <p *ngFor="let tecnologie of project.tecnologies">{{tecnologie}}</p>
       </div>
     </div>
     <div class="project-actions">
