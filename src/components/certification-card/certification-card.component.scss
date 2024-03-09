@@ -1,0 +1,62 @@
+.card-certification {
+    width: 300px;
+    height: 180px;
+    border: 3px solid #4949492f;
+    background-color: var(--color-background);
+    border-radius: 25px;
+    padding: 40px 30px;
+    color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    ng-icon {
+        * {
+            color: var(--color-secondary);
+        }
+    }
+
+    .card-certification-header {
+        .card-description {
+            padding: 20px;
+            border: 0px 0px 0px 1px solid #262626;
+
+            bottom: 0;
+            left: 25%;
+
+            .description {
+                border-left: 1px solid var(--color3);
+                padding: 20px;
+
+            }
+        }
+    }
+
+}
+
+@keyframes wipe-certification-enter {
+    from {
+        transform: translateY(20em)
+    }
+
+    /* slide down from off-screen */
+    to {
+        transform: translateY(0em)
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .card-certification-animation {
+        animation: wipe-certification-enter 1.5s 1;
+
+    }
+}
+
+@media(max-width: 1000px) {
+    .card-certification {
+        width: 100% !important;
+        height: auto;
+        padding: 25px 15px !important;
+        box-sizing: border-box;
+    }
+}

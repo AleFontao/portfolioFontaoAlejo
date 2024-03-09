@@ -1,0 +1,11 @@
+<section class="section-container--secondary">
+  <div class="section-body">
+    <div class="section-title">
+      <h2>Mis certificados</h2>
+    </div>
+    <div class="container-certifications">
+      <app-certification-card *ngFor="let certificate of certifications"
+        [certificate]="certificate"></app-certification-card>
+    </div>
+  </div>
+</section>
