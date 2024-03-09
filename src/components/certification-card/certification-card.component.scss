@@ -17,21 +17,35 @@
     }
 
     .card-certification-header {
-        .card-description {
-            padding: 20px;
-            border: 0px 0px 0px 1px solid #262626;
 
-            bottom: 0;
-            left: 25%;
+        .card-certification-header-info {
+            margin-top: 30px;
+        }
 
-            .description {
-                border-left: 1px solid var(--color3);
-                padding: 20px;
+        * {
+            margin: 0;
+        }
 
-            }
+        p {
+            color: #b3b3b3b9;
+            font-size: 13px;
         }
     }
 
+    .card-description {
+        margin-top: 20px;
+        border: 0px 0px 0px 1px solid #262626;
+
+        bottom: 0;
+        left: 25%;
+
+        .description {
+            border-left: 1px solid var(--color3);
+            padding: 20px;
+
+        }
+
+    }
 }
 
 @keyframes wipe-certification-enter {
@@ -58,5 +72,12 @@
         height: auto;
         padding: 25px 15px !important;
         box-sizing: border-box;
+
+        .card-certification-header {
+
+            .card-certification-header-info {
+                margin-top: 10px;
+            }
+        }
     }
 }

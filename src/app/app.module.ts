@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { heroBookOpen } from '@ng-icons/heroicons/outline';
+import { heroBookOpen, heroPuzzlePiece, heroCodeBracket, heroComputerDesktop, heroAcademicCap } from '@ng-icons/heroicons/outline';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from 'src/components/navBar/navBar.component';
@@ -11,6 +11,7 @@ import { ProjectCardComponent } from 'src/components/project-card/project-card.c
 import { CertificationCardComponent } from 'src/components/certification-card/certification-card.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { CertificationsComponent } from 'src/components/certifications/certifications.component';
+import { AboutMeComponent } from 'src/components/aboutMe/aboutMe.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +22,13 @@ import { CertificationsComponent } from 'src/components/certifications/certifica
     ProjectsComponent,
     ProjectCardComponent,
     CertificationsComponent,
-    CertificationCardComponent
+    CertificationCardComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgIconsModule.withIcons({ heroBookOpen  }),
+    NgIconsModule.withIcons({ heroBookOpen, heroPuzzlePiece, heroCodeBracket, heroComputerDesktop, heroAcademicCap  }),
   
   ],
   providers: [],
