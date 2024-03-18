@@ -24,7 +24,6 @@ export class CertificationCardComponent implements OnInit {
       observer.observe(element);
     })
 
-    console.log(this.certificate)
   }
 
 }

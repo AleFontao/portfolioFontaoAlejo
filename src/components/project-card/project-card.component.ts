@@ -14,6 +14,5 @@ export class ProjectCardComponent implements OnInit {
   myStyle = {};
   ngOnInit() {
     this.myStyle = { 'order': this.project.position}
-    console.log(this.project.position)
   }
 }

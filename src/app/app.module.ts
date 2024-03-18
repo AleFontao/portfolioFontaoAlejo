@@ -12,6 +12,10 @@ import { CertificationCardComponent } from 'src/components/certification-card/ce
 import { NgIconsModule } from '@ng-icons/core';
 import { CertificationsComponent } from 'src/components/certifications/certifications.component';
 import { AboutMeComponent } from 'src/components/aboutMe/aboutMe.component';
+import { StackComponent } from 'src/components/stack/stack.component';
+import { tablerBrandAngular, tablerBrandBitbucket, tablerBrandBootstrap, tablerBrandCss3, tablerBrandGithub, tablerBrandHtml5, tablerBrandJavascript, tablerBrandMysql, tablerBrandPython, tablerBrandReact, tablerBrandTypescript, tablerCoffee, tablerSql } from '@ng-icons/tabler-icons';
+import { RouterModule } from '@angular/router';
+
 
 @NgModule({
   declarations: [
@@ -23,12 +27,16 @@ import { AboutMeComponent } from 'src/components/aboutMe/aboutMe.component';
     ProjectCardComponent,
     CertificationsComponent,
     CertificationCardComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    StackComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgIconsModule.withIcons({ heroBookOpen, heroPuzzlePiece, heroCodeBracket, heroComputerDesktop, heroAcademicCap  }),
+    
+    NgIconsModule.withIcons({ heroBookOpen, heroPuzzlePiece, heroCodeBracket, heroComputerDesktop, heroAcademicCap, 
+      tablerBrandAngular,  tablerBrandReact, tablerBrandJavascript, tablerBrandTypescript, tablerSql, tablerBrandMysql, tablerBrandBootstrap
+    , tablerBrandCss3,  tablerBrandHtml5, tablerBrandGithub, tablerBrandBitbucket, tablerBrandPython,  tablerCoffee}),
   
   ],
   providers: [],

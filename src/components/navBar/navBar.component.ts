@@ -1,5 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-
+import { ViewportScroller } from '@angular/common';
 @Component({
   selector: 'app-navBar',
   templateUrl: './navBar.component.html',
@@ -7,7 +7,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private viewportScroller: ViewportScroller) { }
 
   ngOnInit() {
   }
@@ -23,5 +23,12 @@ export class NavBarComponent implements OnInit {
     }
   }
 
+  onClickScroll(id: string) {
+    const yOffset = -100; 
+    const element = document.getElementById(id);
+    const y = element!.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  }
   
 }

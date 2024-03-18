@@ -19,7 +19,7 @@ export const Projects: Project[] = [
         url: "https://www.wofory.com",
         position: "",
         area: "FrontEnd - BackEnd",
-        tecnologies: ["Angular", "SCSS", "HTML", "ASP.NET", "SQL Server"]
+        tecnologies: ["Angular", "SCSS", "HTML", "ASP.NET", "SQL Server", "MongoDb"]
     }, {
         titleProject:
             "Sistema gestión gimnasio",
