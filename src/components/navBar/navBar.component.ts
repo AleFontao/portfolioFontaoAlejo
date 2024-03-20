@@ -6,6 +6,9 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./navBar.component.scss']
 })
 export class NavBarComponent implements OnInit {
+onClickScroll(arg0: string) {
+throw new Error('Method not implemented.');
+}
 
   constructor() { }
 
