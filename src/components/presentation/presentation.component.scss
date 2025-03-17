@@ -3,6 +3,19 @@
     flex-direction: column;
     align-items: center;
 
+    .presentation-profile-pic {
+        margin-top: 20px;
+        width: 140px;
+        height: 140px;
+        border: 2px solid var(--color-secondary);
+        border-radius: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
     h1 {
         font-size: 80px;
     }

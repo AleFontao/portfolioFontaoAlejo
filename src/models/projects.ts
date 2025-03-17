@@ -12,6 +12,16 @@ export interface Project {
 export const Projects: Project[] = [
     {
         titleProject:
+            "GMS",
+        imgProject:
+            "./assets/GMS.png",
+        descriptionProject: "Plataforma de gestión para la Organización Módulo Sanitario.Permite la planificación, análisis, asignación, construcción y control de módulos sanitarios para familias de bajos recursos de la ciudad de Córdoba. Incluyendo la generación de formularios, reportes y métricas para la toma de decisiones.",
+        position: "",
+        area: "FrontEnd - BackEnd",
+        tecnologies: ["React", "HTML/SCSS", "Nest.Js", "MariaDB", "Typescript", "MongoDb"]
+    },
+    {
+        titleProject:
             "Wofory",
         imgProject:
             "./assets/wofory.png",
@@ -19,7 +29,7 @@ export const Projects: Project[] = [
         url: "https://www.wofory.com",
         position: "",
         area: "FrontEnd - BackEnd",
-        tecnologies: ["Angular", "SCSS", "HTML", "ASP.NET", "SQL Server"]
+        tecnologies: ["Angular", "HTML/SCSS", "ASP.NET", "SQL Server", "Typescript", "MongoDb"]
     }, {
         titleProject:
             "Sistema gestión gimnasio",
@@ -39,7 +49,7 @@ export const Projects: Project[] = [
         github: "https://github.com/AleFontao/BUSCADOR-DLC",
         position: "",
         area: "FrontEnd",
-        tecnologies: ["JAVA", "SprinBoot", "Bootstrap", "CSS", "HTML"]
+        tecnologies: ["JAVA", "SprinBoot", "Bootstrap", "HTML/SCSS", "JavaScript"]
     }, {
         titleProject:
             "RaveLink",
@@ -48,7 +58,7 @@ export const Projects: Project[] = [
         descriptionProject: "El proyecto es una plataforma para encontrar eventos de música electronica.",
         position: "",
         area: "FrontEnd",
-        tecnologies: ["React", "SCSS", "HTML"]
+        tecnologies: ["React", "Typescript", "HTML/SCSS"]
     },
     {
         titleProject:
@@ -60,7 +70,7 @@ export const Projects: Project[] = [
         github: "https://github.com/AleFontao/NetflixClone",
         position: "",
         area: "FrontEnd",
-        tecnologies: ["Angular", "SCSS", "HTML"]
+        tecnologies: ["Angular", "Typescript", "HTML/SCSS"]
     },
     {
         titleProject:
@@ -72,7 +82,7 @@ export const Projects: Project[] = [
         github: "https://github.com/AleFontao/IPAddressTracker",
         position: "",
         area: "FrontEnd",
-        tecnologies: ["Angular", "SCSS", "HTML"]
+        tecnologies: ["Angular","Typescript", "HTML/SCSS"]
     },
 ]
 

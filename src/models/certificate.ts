@@ -8,6 +8,13 @@ export interface Certificate {
 export const Certificates: Certificate[] = [
     {
         titleCertification:
+            "Digitalers NET Developer",
+        linkCertification:
+            "https://www.educacionit.com/perfil/alejo-fontao-921126/certificado/54677?_gl=1*16n8hdw*_ga*MTkwOTk0NDQzNy4xNzQyMjIxMTU5*_ga_R8GR8LL2B8*MTc0MjIyMTE2Mi4xLjEuMTc0MjIyMTE4NS4zNy4wLjE5NDM2MDgxMTE",
+        icon: "heroCodeBracket"
+    },
+    {
+        titleCertification:
             "Patrones de diseño en C# Aplicados en ASP .Net",
         linkCertification:
             "https://www.udemy.com/certificate/UC-0847eee4-ce0a-4114-993f-98a20f38d22a/",
