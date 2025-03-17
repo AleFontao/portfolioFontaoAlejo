@@ -6,9 +6,6 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./navBar.component.scss']
 })
 export class NavBarComponent implements OnInit {
-onClickScroll(arg0: string) {
-throw new Error('Method not implemented.');
-}
 
   constructor() { }
 
@@ -26,5 +23,10 @@ throw new Error('Method not implemented.');
     }
   }
 
-  
+  onClickScroll(sectionId: string) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
 }
